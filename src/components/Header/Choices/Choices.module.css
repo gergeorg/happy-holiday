@@ -14,6 +14,39 @@
 	background-color: #308b70;
 }
 
+.wrapper {
+	position: relative;
+}
+
+.list {
+	position: absolute;
+	top: 68px;
+	left: 0;
+	width: 300px;
+	padding: 20px 52px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+	background-color: #00C78B;
+	border-radius: 30px;
+}
+
+.item {
+	cursor: pointer;
+	line-height: 36px;
+	margin-bottom: 10px;
+	transition: background-color .3s ease-in-out;
+}
+
+/* .item:hover {
+	background-color: #308b70;
+} */
+
+.item:last-child {
+	margin-bottom: 0;
+}
+
 @media (max-width: 1024px) {
 	.button {
 		width: 220px;
