@@ -1,0 +1,23 @@
+.button {
+	width: 300px;
+	height: 65px;
+	background-color: #00C78B;
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+	transition: background-color .3s ease-in-out;
+}
+
+.button:hover {
+	background-color: #308b70;
+}
+
+@media (max-width: 1024px) {
+	.button {
+		width: 220px;
+		height: 45px;
+		font-size: 14px;
+	}
+}

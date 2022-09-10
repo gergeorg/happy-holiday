@@ -32,13 +32,13 @@ const Footer = () => {
 
             <li className={style.item}>
               <a href='https://t.me' className={style.link} aria-label='telegram'>
-                <PinterestIcon />
+                <TGIcon />
               </a>
             </li>
 
             <li className={style.item}>
               <a href='https://ru.pinterest.com/' className={style.link} aria-label='pinterest'>
-                <TGIcon />
+                <PinterestIcon />
               </a>
             </li>
 
